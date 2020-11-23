@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--    Mihajlo Markovic 659/2017 -->
+
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+</head>
+<body>
+
+<!-- NAVIGACIJA -->
+    
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" height="100" width="100"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">  <!-- gura navigaciju desno umesto u sredinu -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menii">Meni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dno">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#onama">O nama</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+
+<!--- Image Slider -->
+
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>    
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/pozadina1.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="images/pozadina2.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="images/pozadina3.jpg">
+            </div>
+        </div>
+    </div>
+
+<!--- MENU -->
+<a name="menii"></a>
+    <div class="menu container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">MENI</h1>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    
+
+<!--- KATALOG -->
+<div class="aaa container-fluid padding">
+    <div class="katalog row padding">
+        <div class="col-lg-6">
+            <img class="img-fluid" src="images/kapricoza.jpg">
+        </div>
+        <div class="col-lg-6">
+            <h3>Kapricoza</h3>
+            <p>Sastav: paradajz sos, kackavalj, sunka, masline<br>
+                <br>
+                M     \    L   \     XL<br>
+                <br>
+                400rsd  \  650rds \  1000rsd
+            </p>
+            <a href="#" class="btn btn-primary">Naruci</a>
+        </div>
+    </div>
+    <div class="katalog row padding">
+        <div class="col-lg-6">
+            <img class="img-fluid" src="images/doba.jpg">
+        </div>
+        <div class="col-lg-6">
+            <h3>4 Godisnja Doba</h3>
+            <p>Sastav: paradajz sos, kackavalj, sunka, sardina<br>
+                sampinjoni, vrganj, slanina<br>
+                <br>
+                M     \    L   \     XL<br>
+                <br>
+                600rsd  \  850rds \  1200rsd
+            </p>
+            <a href="#" class="btn btn-primary">Naruci</a>
+        </div>
+    </div>
+    <div class="katalog row padding">
+        <div class="col-lg-6">
+            <img class="img-fluid" src="images/newyork.jpg">
+        </div>
+        <div class="col-lg-6">
+            <h3>New York</h3>
+            <p>Sastav: paradajz sos, kackavalj, sunka<br>
+                <br>
+                M     \    L   \     XL<br>
+                <br>
+                350rsd  \  600rds \  900rsd
+            </p>
+            <a href="#" class="btn btn-primary">Naruci</a>
+        </div>
+    </div>
+    <div class="katalog row padding">
+        <div class="col-lg-6">
+            <img class="img-fluid" src="images/vegana.jpg">
+        </div>
+        <div class="col-lg-6">
+            <h3>Vegana</h3>
+            <p>Sastav: paradajz sos, masline, paprika, crni luk<br>
+                pecurke<br>
+                <br>
+                M     \    L   \     XL<br>
+                <br>
+                400rsd  \  650rds \  1000rsd
+            </p>
+            <a href="#" class="btn btn-primary">Naruci</a>
+        </div>
+    </div>
+    <div class="katalog row padding">
+        <div class="col-lg-6">
+            <img class="img-fluid" src="images/peperoni.jpg">
+        </div>
+        <div class="col-lg-6">
+            <h3>Kapricoza</h3>
+            <p>Sastav: paradajz sos, kackavalj, kulen<br>
+                <br>
+                M     \    L   \     XL<br>
+                <br>
+                400rsd  \  650rds \  1000rsd
+            </p>
+            <a href="#" class="btn btn-primary">Naruci</a>
+        </div>
+    </div>
+    <hr>
+    </div>
+
+<!--- Two Column Section -->
+
+<div class="container-fluid padding">
+    <div class="row padding">
+        <a name="onama"></a>
+        <div class="col-lg-6">
+            <h2>O nama</h2>
+            <p>Ono sto je u Americi Dominos, to smo mi u Jugoslaviji.</p>
+            <p>Najveci i jedini lanac picerija na nasim prostorima.</p>
+            <p>Zapoceli smo kao porodican biznis, ali posao je tek procvetao nakon sto nam se
+                sin vratio sa trogodisnjeg usavrsavanja u Americi.
+            </p>
+            
+        </div>
+    </div>
+    </div>
+
+<!--- Footer -->
+
+    <footer>
+        <a name="dno"></a>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h3>Kontakt</h3>
+                    <hr class="light">
+                    <p>555-555-555</p>
+                    <p>pizzaemail@nadlanu.rs</p>
+                    <p>Vukov bulevar 23</p>
+                    <p>Nekigrad, 32780</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h3>Radno vreme</h3>
+                    <hr class="light">
+                    <p>Ponedeljak - Petak</p>
+                    <p> 08:00 - 22:00</p>
+                    <p>Subota</p>
+                    <p> 08:00 - 16h</p>
+                    <p>Nedeljom ne radimo</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h3>Restorani</h3>
+                    <hr class="light">
+                    <p>Nekigrad</p>
+                    <p>Novo Mesto</p>
+                    <p>Drugigrad</p>
+                    <p>Staro Mesto</p>
+                    <p>Varosica X</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
+
+
+
