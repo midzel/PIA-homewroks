@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nobile&display=swap');
+
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: url(images/background.png);
+    min-height: 100vh;
+    font-size: 12pt; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.full-height-grow{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    margin: 1rem;
+}
+.naslov{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    left: 23cm;
+    font-size: 24;
+    text-shadow: 3px 3px #999999;
+    font-family: 'Anton', sans-serif; 
+    /* nisam nasao ni georgiju ni new times roman besplatno na google fonts, ovaj mi delovao okej.. traze 75e za njih */
+}
+
+.container1{
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+
+.main-section{
+    box-shadow: 5px 5px 5px #999999;
+    display: flex;
+    margin-top: 1cm;
+    padding: 5px;
+    border: 5px solid gray;
+    background: #EEEEEE
+}
+
+.leva{
+    
+    background: #EEEEEE;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex: 3;
+}
+
+.pozadina{
+    display: flex;
+    align-items: flex-end;
+    color: red;
+    background: url("images/rbg.png");
+    background-repeat: repeat-x;
+    width: 100%;
+    
+}
+
+.ocena{
+    font-size: 48pt;
+    color: red;
+    font-weight: 500;
+}
+
+.komentari{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.quotebubble{
+    font-size: 13pt;
+    font-family: 'Nobile', sans-serif;
+    background-color: #FFFFFF;
+    border: 2px solid #CCCCCC;
+    border-radius: 12px;
+    padding: 1em;
+    width: 90%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.slicica-ocene{
+    margin-right: 5px;
+}
+
+.publication{
+    font-size: 13pt;
+    font-style: italic;
+    margin-left: 39px;
+}
+
+.avatar{
+    vertical-align: middle;
+}
+
+.zaglavlje{
+    margin-left: 1.1cm;
+}
+
+.desna{
+    font-size: 12pt;
+    flex: 1;
+    background: #A2B964;
+    font-family: 'Merriweather Sans', sans-serif;
+    
+}
+
+dl{
+    margin-left: 15px;
+}
+
+dt{
+    margin: 15px 0;
+    /* == NISAM STAVIO BOLD JER JE FONT VEC BOLDOVAN == */
+}
+
+
+footer{
+    background-color: #A2B964;
+    text-align: center;
+    color: black;
+    font-weight: 600;    
+    padding: 0.5em; 
+    box-shadow: 5px 5px 5px #999999;
+      
+}
+
+
+#w3c{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
